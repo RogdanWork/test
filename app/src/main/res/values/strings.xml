@@ -1,3 +1,11 @@
 <resources>
     <string name="app_name">TestTask</string>
+    <string name="notifications_not_allowed">App notifications disabled</string>
+    <string name="channel_id">boot_channel</string>
+    <string name="channel_name">Boot notifications channel</string>
+    <string name="channel_description">Channel to show boot events notification</string>
+    <string name="boot_worker_notification_title">Boot worker</string>
+    <string name="boot_worker_notification_description_no_events">No boots detected</string>
+    <string name="boot_worker_notification_description_single_event">The boot was detected with timestamp %d</string>
+    <string name="boot_worker_notification_description_multi_event">Last boots time delta = %d</string>
 </resources>
